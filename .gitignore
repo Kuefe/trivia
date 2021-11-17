@@ -15,6 +15,7 @@
 /.idea/vcs.xml
 /.idea/workspace.xml
 /.idea/assetWizardSettings.xml
+/.idea/jarRepositories.xml
 .DS_Store
 /build
 /captures
