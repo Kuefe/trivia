@@ -30,10 +30,10 @@ class TitelFragment : Fragment() {
             DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false)
 
         //The complete onClickListener with Navigation
-//        binding.playButton.setOnClickListener { view: View ->
-//            view.findNavController().navigate(R.id.action_titelFragment_to_gameFragment)
-//        }
-        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_titelFragment_to_gameFragment))
+        binding.playButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(TitelFragmentDirections.actionTitelFragmentToGameFragment())
+        }
+//        binding.playButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_titelFragment_to_gameFragment))
 
         setHasOptionsMenu(true)
 
